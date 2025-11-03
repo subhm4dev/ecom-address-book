@@ -8,9 +8,9 @@ Address Book Management Service for shipping addresses.
 
 ## Endpoints
 
-- `POST /v1/address` - Save address (unique constraint: same user cannot save exact same address twice)
-- `GET /v1/address/{id}` - Get address by ID
-- `GET /v1/address?userId=` - Get all addresses for a user
+- `POST /api/v1/address` - Save address (unique constraint: same user cannot save exact same address twice)
+- `GET /api/v1/address/{id}` - Get address by ID
+- `GET /api/v1/address?userId=` - Get all addresses for a user
 
 ## Running Locally
 

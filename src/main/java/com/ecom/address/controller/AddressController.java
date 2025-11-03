@@ -34,7 +34,7 @@ import java.util.UUID;
  * data isolation while supporting marketplace scenarios.
  */
 @RestController
-@RequestMapping("/v1/address")
+@RequestMapping("/api/v1/address")
 @Tag(name = "Address Book", description = "Shipping address management endpoints")
 @SecurityRequirement(name = "bearerAuth")
 public class AddressController {
